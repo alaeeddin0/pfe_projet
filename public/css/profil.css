@@ -1,0 +1,41 @@
+.circle {
+    width: 150px; /* ajustez la taille selon vos besoins */
+    height: 150px; /* ajustez la taille selon vos besoins */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000; /* ajoute une bordure si nécessaire */
+}
+.circle img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom:0;
+    
+}
+
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info p {
+    margin: 30px 30%;
+    font-size: medium;
+
+}
+
+.profile-info p strong {
+    margin-right: 10px;
+}
+
+#change-image-button {
+    margin-left: 20px;
+}
+
